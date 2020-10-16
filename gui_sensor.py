@@ -8,7 +8,7 @@ import wx
 import configparser
 import pathlib
 import time
-import serial
+import serial #pyserial 
 import xlsxwriter
 
 config = configparser.ConfigParser()
