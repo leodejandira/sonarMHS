@@ -31,8 +31,6 @@ else:
 position = []
 instant = []
 SonarColletctedData = []
-#constants
-#energy values
 velocity = []
 epg = []
 epe = []
