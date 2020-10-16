@@ -12,7 +12,6 @@ import serial
 import xlsxwriter
 
 config = configparser.ConfigParser()
-
 file = pathlib.Path("configure_value.ini")
 if file.exists():
     config.read('configure_value.ini')
