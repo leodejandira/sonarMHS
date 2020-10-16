@@ -238,8 +238,8 @@ class BottomLeftPanel(wx.Panel):
 #°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° Show plot °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°#
     def graphShow (self, event):
         self.top.draw(instant, epe, epg, ec, totalEnergy)
-        for n in range (0, len(position)):
-            self.right.boxInstant.WriteText("{} \n".format(instant[n]))
+        #for n in range (0, len(position)):
+        #    self.right.boxInstant.WriteText("{} \n".format(instant[n]))
         for n in range (0, len(velocity)):
             self.right.boxTotal.WriteText("{} \n".format(totalEnergy[n]))
 
